@@ -2,7 +2,10 @@
 > Wechat api for debug part.
 
 
-## resources:
-
-## todos:
-- [ ] unit test case
+## usage:
+```js
+import NxWxDebug from 'next-wx-debug';
+NxWxDebug.checkJsApi(['showOptionMenu']).then(({ status, data})=>{
+  // you codes goes here!
+});
+```
