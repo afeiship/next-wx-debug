@@ -14,7 +14,7 @@
                 resove( { status:'success', data: data} );
               },
               fail: function( data ){
-                reject( { status:'fail', data: data} );
+                resove( { status:'fail', data: data} );
               },
               complete: function( data ){
                 resolve( { status:'complete', data: data } )
