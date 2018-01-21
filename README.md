@@ -9,7 +9,5 @@
 import NxWxDebug from 'next-wx-debug';
 NxWxDebug.checkJsApi(['showOptionMenu']).then(({ status, data})=>{
   // you codes goes here!
-  switch(status){
-  }
 });
 ```
